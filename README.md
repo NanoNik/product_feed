@@ -30,7 +30,9 @@ sudo docker-compose up -d
 ```
 
 * Управление списком продуктов: http://127.0.0.1:8000/products (GET, POST, DELETE, etc)
+
 Пример POST запроса:
+
 ```
 {
   "store_id": 1,
