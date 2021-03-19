@@ -56,4 +56,7 @@ sudo docker-compose up -d
 * Получение фида http://127.0.0.1:8000/feed/<shop_id> (GET)
 
 Пример для магазина созданного командой random:
+
+```
 wget -O feed.xml http://127.0.0.1:8000/feed/1
+```
